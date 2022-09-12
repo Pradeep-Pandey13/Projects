@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <input type="text" class="inputtext" placeholder="0" />
+
+        <button onclick="clr()">C</button>
+        <button onclick="del()">DEL</button>
+        <button onclick="Calculator('%')">%</button>
+        <button onclick="Calculator('/')">/</button>
+        <button onclick="Calculator(7)">7</button>
+        <button onclick="Calculator(8)">8</button>
+        <button onclick="Calculator(9)">9</button>
+        <button onclick="Calculator('*')">*</button>
+        <button onclick="Calculator(4)">4</button>
+        <button onclick="Calculator(5)">5</button>
+        <button onclick="Calculator(6)">6</button>
+        <button onclick="Calculator('-')">-</button>
+        <button onclick="Calculator(1)">1</button>
+        <button onclick="Calculator(2)">2</button>
+        <button onclick="Calculator(3)">3</button>
+        <button onclick="Calculator('+')">+</button>
+        <button onclick="Calculator('.')">.</button>
+        <button onclick="Calculator(0)">0</button>
+        <button onclick="result_show()" class="Equal-width">=</button>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
